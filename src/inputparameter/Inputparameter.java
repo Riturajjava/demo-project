@@ -1,6 +1,6 @@
-package calculator;
+package inputparameter;
 
-public class Intputparameter {
+public class Inputparameter {
 
     public void data(int a, int b){
         int sum=a+b;
@@ -15,7 +15,7 @@ public class Intputparameter {
 
 
     public static void main (String[] args) {
-        Intputparameter object=new Intputparameter();
+        Inputparameter object=new Inputparameter();
         object.data(44,37);
         object.data(100,98);
         object.speech("Virus");
